@@ -15,9 +15,4 @@ public class IngredientTest {
     public void checkGetNameIngredient() {
         Assert.assertEquals("hot sauce", ingredient.getName());
     }
-
-    @Test
-    public void checkGetTypeIngredient() {
-        Assert.assertEquals(IngredientType.SAUCE, ingredient.getType());
-    }
 }
